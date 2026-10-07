@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        .hero-section {
+            /* Combined color overlay gradient and the background image link */
+            background-image: linear-gradient(135deg,
+                    rgba(255, 94, 58, 0.85),
+                    /* Bright Orange */
+                    rgba(247, 42, 123, 0.85)
+                    /* Hot Pink/Magenta */
+                ),
+                url('your-city-image.jpg');
+            /* Replace with your image path */
+
+            /* Forces the background to cover the full viewport space */
+            min-height: 100vh;
+            width: 100%;
+
+            /* Centers the city graphic horizontally and vertically */
+            background-position: center;
+        
+            /* Resizes the graphic responsively without stretching out of proportion */
+            background-size: cover;
+
+            /* Prevents tiling/repeating if the window stretches */
+            background-repeat: no-repeat;
+        }
+        .container{
+            display: flex;
+        }
+        
+
+    </style>
+</head>
+
+<body>
+    
+    <header class="hero-section">
+        <!-- Your navigation, layout columns, text, and quote form go here -->
+    <nav class="">
+        <div class="navbar">Name</div>
+        <div navlinks>
+            <div>HOME</div>
+            <div>SERVICE</div>
+            <div>DETAILS</div>
+            <div>PRICING</div>
+            <div>PROJECTS</div>
+            <div>DROP</div>
+            <div>CONTACT</div>
+
+        </div>
+    </nav>
+
+    <div class="container">
+    <div class="text"></div>
+    <div class="form"></div>
+    </div>
+    </header>
+</body>
+
+</html>
